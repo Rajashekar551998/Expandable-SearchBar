@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.search_bar{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+    
+}
+.username{
+    width: 0px;
+    height: 35px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid;
+    padding-left: 20px;
+    transition:all 0.5s;
+}
+.icon{
+    background-color: brown;
+    width: 40px;
+    height: 40px;
+    border-radius:35px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+    transform: translateX(-30px);
+}
+.icon span{
+    transform: rotate(-45deg);
+}
+.search_bar:hover .username{
+    width: 15%;
+    
+}
